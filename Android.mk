@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter jewel evita ville fireball,$(TARGET_DEVICE)),)
+ifneq ($(filter jewel evita ville valentewx fireball,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
