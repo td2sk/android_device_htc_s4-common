@@ -128,6 +128,16 @@
 /dev/ttyHSUSB3                                 0660    autobot_access autobot_access
 /dev/ttyHSUSB1                                 0600    system system
 
+# felica device file nodes
+/dev/felica               0666  felicaclient         felicaclient
+/dev/felica_pon           0666  felicaclient         felicaclient
+/dev/felica_cen           0666  felicalock           felicalock
+/dev/felica_rfs           0444  felicaclient         felicaclient
+/dev/felica_rws           0666  felicaclient         felicaclient
+/dev/felica_int           0444  felicaclient         felicaclient
+/dev/felica_int_poll      0400  felicaclient         felicaclient
+/dev/felica_uid           0222  felicaclient         felicaclient
+
 # NFC
 /dev/pn544                0600   nfc        nfc
 
